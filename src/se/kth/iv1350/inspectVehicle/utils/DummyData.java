@@ -12,10 +12,10 @@ import java.util.ArrayList;
 public class DummyData {
     public ArrayList<Vehicle> generateVehicleList(){
         ArrayList<Vehicle> vehicleList = new ArrayList<>();
-        vehicleList.add(new Vehicle("123REF", generateInspectionList()));
-        vehicleList.add(new Vehicle("283FOE", generateInspectionList()));
-        vehicleList.add(new Vehicle("562ROP", generateInspectionList()));
-        vehicleList.add(new Vehicle("123ABC", generateInspectionList()));
+        vehicleList.add(new Vehicle("123REF", generateInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("283FOE", generateInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("562ROP", generateInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("123ABC", generateInspectionList(), generateEmptyInspectionList()));
         return vehicleList;
     }
 
@@ -26,5 +26,9 @@ public class DummyData {
         dummyInspections.add(new Inspection("Brakes Inspection", 250));
         dummyInspections.add(new Inspection("Tail Lights Inspection", 150));
         return dummyInspections;
+    }
+
+    private ArrayList<Inspection> generateEmptyInspectionList(){
+        return new ArrayList<>();
     }
 }

@@ -8,6 +8,8 @@ import java.util.ArrayList;
 public class Vehicle {
     private String regNumber;
     private ArrayList<Inspection> inspectionList;
+    private ArrayList<Inspection> failedInspectionList;
+    private ArrayList<Inspection> passedInspectionList;
 
     /**
      * Creates and instance of a vehicle.
@@ -21,6 +23,12 @@ public class Vehicle {
         this.inspectionList = inspectionList;
     }
 
+    public Vehicle(String regNumber, ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList){
+        this.regNumber = regNumber;
+        this.failedInspectionList = failedInspectionList;
+        this.passedInspectionList = passedInspectionList;
+    }
+
     /**
      * Returns the <code>ArrayList</code> of <code>Inspection</code> from this object.
      *
@@ -29,6 +37,22 @@ public class Vehicle {
 
     public ArrayList<Inspection> getInspectionList(){
         return this.inspectionList;
+    }
+
+    public ArrayList<Inspection> getFailedInspectionList() {
+        return this.failedInspectionList;
+    }
+
+    public ArrayList<Inspection> getPassedInspectionList(){
+        return this.passedInspectionList;
+    }
+
+    public void updateFailedInspectionList(ArrayList<Inspection> failedInspectionList){
+        this.failedInspectionList = failedInspectionList;
+    }
+
+    public void updatePassedInspectionList(ArrayList<Inspection> passedInspectionList){
+        this.passedInspectionList = passedInspectionList;
     }
 
     /**
@@ -58,9 +82,14 @@ public class Vehicle {
      */
 
     public Vehicle copy(){
-        ArrayList<Inspection> arrayListCopy = new ArrayList<>();
-        for (Inspection inspection : this.getInspectionList())
-            arrayListCopy.add(inspection.copy());
-        return new Vehicle(this.getRegNumber(), arrayListCopy);
+        ArrayList<Inspection> failedInspectionListCopy = new ArrayList<>();
+        ArrayList<Inspection> passedInspectionListCopy = new ArrayList<>();
+
+        for (Inspection inspection : this.getFailedInspectionList())
+            failedInspectionListCopy.add(inspection.copy());
+        for (Inspection inspection : this.getPassedInspectionList())
+            passedInspectionListCopy.add(inspection.copy());
+
+        return new Vehicle(this.getRegNumber(), failedInspectionListCopy, passedInspectionListCopy);
     }
 }

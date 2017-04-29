@@ -13,14 +13,12 @@ public class Payment {
     /**
      * Creates an instance of payment.
      *
-     * @param inspectionList An <code>ArrayList</code> of <code>Inspection</code>.
+     * @param failedInspectionList An <code>ArrayList</code> of <code>Inspection</code> that should be performed.
      */
-    public Payment(ArrayList<Inspection> inspectionList){
-        for (Inspection inspection : inspectionList){
-            if (!inspection.getPassedInspection()) {
-                this.inspectionsToPayFor.add(inspection);
-                this.totalCost += inspection.getCost();
-            }
+    public Payment(ArrayList<Inspection> failedInspectionList){
+        for (Inspection inspection : failedInspectionList){
+            this.inspectionsToPayFor.add(inspection);
+            this.totalCost += inspection.getCost();
         }
     }
 

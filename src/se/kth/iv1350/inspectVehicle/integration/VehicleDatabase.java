@@ -29,10 +29,11 @@ public class VehicleDatabase {
         return null;
     }
 
-    public void updateVehicleInDatabase(String regNumber, ArrayList<Inspection> performedInspectionList){
+    public void updateVehicleInDatabase(String regNumber, ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList){
         for (Vehicle vehicle : vehicles){
             if (vehicle.getRegNumber().equals(regNumber)){
-                vehicle.updateInspectionList(performedInspectionList);
+                vehicle.updateFailedInspectionList(failedInspectionList);
+                vehicle.updatePassedInspectionList(passedInspectionList);
             }
         }
 

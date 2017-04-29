@@ -11,32 +11,30 @@ import java.util.Iterator;
  */
 public class InspectionHandler {
 
+    private ArrayList<Inspection> failedInspectionList;
+    private ArrayList<Inspection> passedInspectionList;
+
     private Inspection currentInspection;
     private Iterator<Inspection> iterator;
 
      /**
      * Creates a new instance. An InspectionHandler is used for iterating the inspection and fetching what inspection the inspector should perform.
      *
-     * @param inspectionList The list to handle.
-     *
+     * @param failedInspectionList <code>ArrayList</code> of inspections that should be performed.
+     * @param passedInspectionList <code>ArrayList</code> of passed inspections.
      */
-    public InspectionHandler(ArrayList<Inspection> inspectionList){
-        this.iterator = inspectionList.listIterator();
-        this.currentInspection = iterator.next();
 
-        while(this.currentInspection.getPassedInspection()) {
-            this.currentInspection = iterator.next();
-
-            if (allInspectionsHasBeenPerformed())
-                this.currentInspection = null;
-        }
+    public InspectionHandler(ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList){
+        this.failedInspectionList = failedInspectionList;
+        this.passedInspectionList = passedInspectionList;
+        this.iterator = failedInspectionList.listIterator();
+        this.currentInspection = this.iterator.next();
     }
 
     /**
     * Fetches the current inspection that should be performed.
     *
     * @return The inspection to perform.
-    *
     */
     public Inspection getCurrentInspection(){
         return this.currentInspection;
@@ -49,10 +47,12 @@ public class InspectionHandler {
      */
     public void setInspectionPassed(boolean inspectionPassed){
 
-        if (inspectionPassed)
-            currentInspection.setPassedInspection();
+        if (inspectionPassed) {
+            addCurrentInspectionToPassedInspections();
+            this.iterator.remove();
+        }
 
-        currentInspection = getNextInspectionInList();
+        this.currentInspection = getNextInspectionInList();
 
     }
 
@@ -63,18 +63,10 @@ public class InspectionHandler {
      */
     private Inspection getNextInspectionInList(){
 
-        while (!allInspectionsHasBeenPerformed()){
-            Inspection nextInspection = iterator.next();
-
-            if (!nextInspection.getPassedInspection()){
-                return nextInspection;
-            }
-        }
-
-        if (this.currentInspection.getPassedInspection() && allInspectionsHasBeenPerformed())
+        if (isLastInspection())
             return null;
 
-        return null;
+        return this.iterator.next();
     }
 
     /**
@@ -82,11 +74,19 @@ public class InspectionHandler {
      *
      * @return <code>true</code> if there is more inspections, else <code>false</code>.
      */
-    private boolean allInspectionsHasBeenPerformed(){
-        if (iterator.hasNext())
+    private boolean isLastInspection(){
+        if (this.iterator.hasNext())
             return false;
         else
             return true;
+    }
+
+    /**
+     * Adds the current inspection to the passedInspectionList of the <code>InspectionHandler</code>.
+     */
+    private void addCurrentInspectionToPassedInspections(){
+        this.currentInspection.setPassedInspection();
+        this.passedInspectionList.add(this.currentInspection);
     }
 
 }

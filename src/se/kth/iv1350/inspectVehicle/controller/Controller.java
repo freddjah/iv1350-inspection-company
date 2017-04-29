@@ -18,7 +18,7 @@ public class Controller {
         this.door                   = door;
         this.vehicleDB              = vehicleDB;
         this.creditPaymentHandler   = creditPaymentHandler;
-        this.printer = printer;
+        this.printer                = printer;
     }
 
     private Vehicle vehicle;
@@ -37,8 +37,8 @@ public class Controller {
 
     public float getCostForInspections(String regNumber){
         vehicle             = vehicleDB.getVehicle(regNumber);
-        payment             = new Payment(vehicle.getInspectionList());
-        inspectionHandler   = new InspectionHandler(vehicle.getInspectionList());
+        payment             = new Payment(vehicle.getFailedInspectionList());
+        inspectionHandler   = new InspectionHandler(vehicle.getFailedInspectionList(), vehicle.getPassedInspectionList());
         return payment.getTotalCost();
     }
 
@@ -64,9 +64,9 @@ public class Controller {
     }
 
     private void endInspectionSession(){
-        Printout printout = new Printout(vehicle.getInspectionList());
+        Printout printout = new Printout(vehicle.getFailedInspectionList(), vehicle.getPassedInspectionList());
         printer.printPrintout(printout);
-        vehicleDB.updateVehicleInDatabase(vehicle.getRegNumber(), vehicle.getInspectionList());
+        vehicleDB.updateVehicleInDatabase(vehicle.getRegNumber(), vehicle.getFailedInspectionList(), vehicle.getPassedInspectionList());
     }
 
 

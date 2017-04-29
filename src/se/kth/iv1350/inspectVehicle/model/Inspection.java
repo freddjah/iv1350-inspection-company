@@ -22,15 +22,6 @@ public class Inspection {
     }
 
     /**
-     * Returns a <code>boolean</code> that tells if the <code>Vehicle</code> has passed the inspection or not.
-     *
-     * @return Returns if the vehicle has passed this inspection.
-     */
-    public boolean getPassedInspection() {
-        return passedInspection;
-    }
-
-    /**
      * The inspection has passed the inspection.
      */
     public void setPassedInspection() {

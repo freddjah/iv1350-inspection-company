@@ -6,11 +6,19 @@ import java.util.ArrayList;
  * Created by fredrik on 27/04/17.
  */
 public class Printout {
-    private ArrayList<Inspection> inspectionList;
+    private ArrayList<Inspection> failedInspectionList;
+    private ArrayList<Inspection> passedInspectionList;
 
-    public Printout(ArrayList<Inspection> inspectionList) {
+    public Printout(ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList) {
+        this.failedInspectionList = failedInspectionList;
+        this.passedInspectionList = passedInspectionList;
+    }
 
-        this.inspectionList = inspectionList;
+    public ArrayList<Inspection> getFailedInspectionList() {
+        return failedInspectionList;
+    }
 
+    public ArrayList<Inspection> getPassedInspectionList() {
+        return passedInspectionList;
     }
 }
