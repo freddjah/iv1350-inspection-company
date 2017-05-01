@@ -7,13 +7,25 @@ import se.kth.iv1350.inspectVehicle.model.Printout;
  * Created by fredrik on 27/04/17.
  */
 public class Printer {
+
+    /**
+     * Creates an instance of printer that handles the printing operations.
+     */
     public Printer() {
     }
 
+    /**
+     * Prints the receipt.
+     * @param creditPaymentReceipt A receipt given as <code>Receipt</code>.
+     */
     public void printReceipt(CreditPaymentReceipt creditPaymentReceipt){
 
     }
 
+    /**
+     * Prints a printout.
+     * @param printout A printout given <code>Printout</code>.
+     */
     public void printPrintout(Printout printout){
 
     }

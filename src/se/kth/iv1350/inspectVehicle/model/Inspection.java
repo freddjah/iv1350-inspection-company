@@ -5,20 +5,33 @@ package se.kth.iv1350.inspectVehicle.model;
  */
 public class Inspection {
 
-    private final String name;
-    private final int cost;
+    private String name;
+    private float cost;
     private boolean passedInspection;
 
     /**
      * Creates a new instance of inspection
      *
-     * @param name The name of the inspection
-     * @param cost The cost of the inspection
+     * @param name The name of the inspection as <code>String</code>
+     * @param cost The cost of the inspection as <code>float</code>
      */
-    public Inspection(String name, int cost) {
+    public Inspection(String name, float cost) {
         this.name = name;
         this.cost = cost;
         this.passedInspection = false;
+    }
+
+    /**
+     * Creates an instance of inspection, where you can choose initial state of passedInspection.
+     *
+     * @param name The name of the inspection as <code>String</code>.
+     * @param cost The cost of the inspection as <code>float</code>.
+     * @param initialState The initial state of <code>passedInspection</code> as <code>boolean</code>.
+     */
+    public Inspection(String name, int cost, boolean initialState) {
+        this.name = name;
+        this.cost = cost;
+        this.passedInspection = initialState;
     }
 
     /**
@@ -33,15 +46,19 @@ public class Inspection {
      * @return Returns the name of the inspection.
      */
     public String getName() {
-        return name;
+        return this.name;
     }
 
     /**
      * Returns the cost as <code>float</code>
      * @return Returns the cost of the inspection.
      */
-    public int getCost() {
-        return cost;
+    public float getCost() {
+        return this.cost;
+    }
+
+    public boolean getPassedInspection(){
+        return this.passedInspection;
     }
 
     /**

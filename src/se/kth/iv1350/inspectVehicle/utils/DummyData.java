@@ -10,16 +10,25 @@ import java.util.ArrayList;
  * Created by fredrik on 28/04/17.
  */
 public class DummyData {
+
+    /**
+     * Returns some dummy data that can be used to create a vehicle database.
+     * @return Returns a list of vehicles as <code>ArrayList</code>.
+     */
     public ArrayList<Vehicle> generateVehicleList(){
         ArrayList<Vehicle> vehicleList = new ArrayList<>();
-        vehicleList.add(new Vehicle("123REF", generateInspectionList(), generateEmptyInspectionList()));
-        vehicleList.add(new Vehicle("283FOE", generateInspectionList(), generateEmptyInspectionList()));
-        vehicleList.add(new Vehicle("562ROP", generateInspectionList(), generateEmptyInspectionList()));
-        vehicleList.add(new Vehicle("123ABC", generateInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("123REF", generateFailedInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("283FOE", generateFailedInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("562ROP", generateFailedInspectionList(), generateEmptyInspectionList()));
+        vehicleList.add(new Vehicle("123ABC", generateFailedInspectionList(), generateEmptyInspectionList()));
         return vehicleList;
     }
 
-    private ArrayList<Inspection> generateInspectionList(){
+    /**
+     * Generates an <code>ArrayList</code> of failed inspections for testing purposes.
+     * @return List of failed inspections as <code>ArrayList</code>.
+     */
+    public ArrayList<Inspection> generateFailedInspectionList(){
         ArrayList<Inspection> dummyInspections = new ArrayList<>();
         dummyInspections.add(new Inspection("Belt Inspection", 50));
         dummyInspections.add(new Inspection("Wheel Inspection", 100));
@@ -28,7 +37,23 @@ public class DummyData {
         return dummyInspections;
     }
 
-    private ArrayList<Inspection> generateEmptyInspectionList(){
+    /**
+     * Generates an <code>ArrayList</code> of inspections that has been passed.
+     * @return List of passed inspections as <code>ArrayList</code>.
+     */
+    public ArrayList<Inspection> generatePassedInspectionList(){
+        ArrayList<Inspection> dummyInspections = new ArrayList<>();
+        dummyInspections.add(new Inspection("Electrical Components Inspection", 500, true));
+        dummyInspections.add(new Inspection("Exhaust Inspection", 120, true));
+        dummyInspections.add(new Inspection("Engine Inspection", 350, true));
+        return dummyInspections;
+    }
+
+    /**
+     * Generates an <code>ArrayList</code> that is empty.
+     * @return Empty list as <code>ArrayList</code>.
+     */
+    public ArrayList<Inspection> generateEmptyInspectionList(){
         return new ArrayList<>();
     }
 }

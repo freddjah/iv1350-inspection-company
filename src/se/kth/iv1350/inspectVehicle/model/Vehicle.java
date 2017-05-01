@@ -14,14 +14,10 @@ public class Vehicle {
     /**
      * Creates and instance of a vehicle.
      *
-     * @param regNumber The registration number of the car.
-     * @param inspectionList A list of inspections.
+     * @param regNumber The registration number of the car as <code>String</code>.
+     * @param failedInspectionList A list of failed inspections on the vehicle as <code>ArrayList</code>.
+     * @param passedInspectionList A list of passed inspections on the vehicle as <code>ArrayList</code>.
      */
-
-    public Vehicle(String regNumber, ArrayList<Inspection> inspectionList) {
-        this.regNumber = regNumber;
-        this.inspectionList = inspectionList;
-    }
 
     public Vehicle(String regNumber, ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList){
         this.regNumber = regNumber;
@@ -30,19 +26,17 @@ public class Vehicle {
     }
 
     /**
-     * Returns the <code>ArrayList</code> of <code>Inspection</code> from this object.
-     *
-     * @return Returns a list of inspections.
+     * Returns the failed inspecions of the vehicle as <code>ArrayList</code>
+     * @return The failed inspections as <code>ArrayList</code>
      */
-
-    public ArrayList<Inspection> getInspectionList(){
-        return this.inspectionList;
-    }
-
     public ArrayList<Inspection> getFailedInspectionList() {
         return this.failedInspectionList;
     }
 
+    /**
+     * Returns the passed inspections of the vehicle as <code>ArrayList</code>
+     * @return The passed inspections as <code>ArrayList</code>
+     */
     public ArrayList<Inspection> getPassedInspectionList(){
         return this.passedInspectionList;
     }
@@ -51,6 +45,10 @@ public class Vehicle {
         this.failedInspectionList = failedInspectionList;
     }
 
+    /**
+     * Updates the <code>ArrayList</code> of passed inspections of the vehicle.
+     * @param passedInspectionList A list of passed inspections given as <code>ArrayList</code>
+     */
     public void updatePassedInspectionList(ArrayList<Inspection> passedInspectionList){
         this.passedInspectionList = passedInspectionList;
     }
@@ -63,16 +61,6 @@ public class Vehicle {
 
     public String getRegNumber(){
         return this.regNumber;
-    }
-
-    /**
-     * Updates the <code>ArrayList</code> of <code>Inspections</code> in this instance.
-     *
-     * @param performedInspectionList The <code>ArrayList</code> of performed inspections.
-     */
-
-    public void updateInspectionList(ArrayList<Inspection> performedInspectionList){
-        this.inspectionList = performedInspectionList;
     }
 
     /**

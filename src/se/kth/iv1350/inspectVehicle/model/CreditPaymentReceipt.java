@@ -58,7 +58,7 @@ public class CreditPaymentReceipt {
 
     /**
      * Returns a <code>boolean</code> that is <code>true</code> if the payment went through, else <code>false</code>.
-     * @return
+     * @return Returns a <code>boolean</code> value that tells if the payment went trough.
      */
 
     public boolean getPaymentApproved(){

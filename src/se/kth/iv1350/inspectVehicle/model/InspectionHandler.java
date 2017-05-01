@@ -21,7 +21,7 @@ public class InspectionHandler {
      * Creates a new instance. An InspectionHandler is used for iterating the inspection and fetching what inspection the inspector should perform.
      *
      * @param failedInspectionList <code>ArrayList</code> of inspections that should be performed.
-     * @param passedInspectionList <code>ArrayList</code> of passed inspections.
+     * @param passedInspectionList <code>ArrayList</code> of previous passed inspections.
      */
 
     public InspectionHandler(ArrayList<Inspection> failedInspectionList, ArrayList<Inspection> passedInspectionList){
