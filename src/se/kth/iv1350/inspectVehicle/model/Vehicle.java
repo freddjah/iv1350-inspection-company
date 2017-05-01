@@ -7,7 +7,6 @@ import java.util.ArrayList;
  */
 public class Vehicle {
     private String regNumber;
-    private ArrayList<Inspection> inspectionList;
     private ArrayList<Inspection> failedInspectionList;
     private ArrayList<Inspection> passedInspectionList;
 
