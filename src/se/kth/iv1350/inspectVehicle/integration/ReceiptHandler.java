@@ -3,6 +3,7 @@ package se.kth.iv1350.inspectVehicle.integration;
 import se.kth.iv1350.inspectVehicle.model.CreditCardDTO;
 import se.kth.iv1350.inspectVehicle.model.CreditPaymentReceipt;
 import se.kth.iv1350.inspectVehicle.model.Inspection;
+import se.kth.iv1350.inspectVehicle.model.Payment;
 
 import java.util.ArrayList;
 

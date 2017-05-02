@@ -19,7 +19,7 @@ public class Printer {
      * @param creditPaymentReceipt A receipt given as <code>Receipt</code>.
      */
     public void printReceipt(CreditPaymentReceipt creditPaymentReceipt){
-
+        // Printing to external printer.
     }
 
     /**
@@ -27,7 +27,7 @@ public class Printer {
      * @param printout A printout given <code>Printout</code>.
      */
     public void printPrintout(Printout printout){
-
+        // Printing to external printer
     }
 
 

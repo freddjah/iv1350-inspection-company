@@ -12,16 +12,18 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class PaymentTest {
     private Payment payment;
+    private DummyData dummyData;
 
     @BeforeEach
     void setUp() {
-        DummyData dummyData = new DummyData();
+        dummyData = new DummyData();
         payment = new Payment(dummyData.generateFailedInspectionList());
     }
 
     @AfterEach
     void tearDown() {
         payment = null;
+        dummyData = null;
     }
 
     @Test

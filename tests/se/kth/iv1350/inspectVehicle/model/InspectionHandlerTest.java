@@ -12,16 +12,18 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class InspectionHandlerTest {
     private InspectionHandler inspectionHandler;
+    private DummyData dummyData;
 
     @BeforeEach
     void setUp() {
-        DummyData dummyData = new DummyData();
+        dummyData = new DummyData();
         inspectionHandler = new InspectionHandler(dummyData.generateFailedInspectionList(), dummyData.generatePassedInspectionList());
     }
 
     @AfterEach
     void tearDown() {
         inspectionHandler = null;
+        dummyData = null;
     }
 
     @Test

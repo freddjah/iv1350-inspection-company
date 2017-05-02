@@ -26,4 +26,12 @@ public class GarageDoor {
     public void closeDoor(){
         this.isOpen = false;
     }
+
+    /**
+     * Returns the current state of the door
+     * @return Returns state of door with a <code>boolean</code>, <code>true</code> if open and <code>false</code> if closed.
+     */
+    public boolean getCurrentState(){
+        return this.isOpen;
+    }
 }

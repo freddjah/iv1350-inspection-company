@@ -20,6 +20,7 @@ public class View {
     public void sampleExecution() {
 
         controller.beginNewInspection();
+        controller.closeDoor();
 
         System.out.println("A new inspection has begun \n");
 
@@ -56,10 +57,5 @@ public class View {
 
         System.out.println("Results has been printed out. Have an okay day!");
 
-    }
-
-    public void multipleSampleExecution(){
-        sampleExecution();
-        sampleExecution();
     }
 }

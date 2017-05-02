@@ -13,10 +13,12 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class VehicleDatabaseTest {
     private VehicleDatabase vehicleDatabase;
+    private DummyData dummyData;
 
     @BeforeEach
     void setUp() {
         vehicleDatabase = new VehicleDatabase();
+        dummyData = new DummyData();
     }
 
     @AfterEach
@@ -32,7 +34,6 @@ class VehicleDatabaseTest {
 
     @Test
     void updateVehicleInDatabase() {
-        DummyData dummyData = new DummyData();
         vehicleDatabase.updateVehicleInDatabase("123ABC", dummyData.generateEmptyInspectionList(), dummyData.generateEmptyInspectionList());
         assertEquals(0, vehicleDatabase.getVehicle("123ABC").getFailedInspectionList().size());
     }

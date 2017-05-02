@@ -1,6 +1,7 @@
 package se.kth.iv1350.inspectVehicle.utils;
 
 import se.kth.iv1350.inspectVehicle.integration.VehicleDatabase;
+import se.kth.iv1350.inspectVehicle.model.CreditCardDTO;
 import se.kth.iv1350.inspectVehicle.model.Inspection;
 import se.kth.iv1350.inspectVehicle.model.Vehicle;
 
@@ -55,5 +56,13 @@ public class DummyData {
      */
     public ArrayList<Inspection> generateEmptyInspectionList(){
         return new ArrayList<>();
+    }
+
+    /**
+     * Generates a <code>CreditCardDTO</code>.
+     * @return A credit card as <code>CreditCardDTO</code>
+     */
+    public CreditCardDTO generateCreditCardDTO() {
+        return new CreditCardDTO("101", "2334554300562245", "0518");
     }
 }

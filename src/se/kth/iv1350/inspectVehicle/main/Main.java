@@ -24,6 +24,6 @@ public class Main {
         Controller controller = new Controller(queueHandler, door, vehicleDB, creditPaymentHandler, printer);
         View view = new View(controller);
 
-        view.multipleSampleExecution();
+        view.sampleExecution();
     }
 }

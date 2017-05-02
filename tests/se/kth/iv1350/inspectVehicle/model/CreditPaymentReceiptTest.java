@@ -12,12 +12,12 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class CreditPaymentReceiptTest {
     private CreditPaymentReceipt creditPaymentReceipt;
+    private DummyData dummyData;
 
     @BeforeEach
     void setUp() {
-        DummyData dummyData = new DummyData();
-        CreditCardDTO creditCardDTO = new CreditCardDTO("011", "42112414141414", "0518");
-        creditPaymentReceipt = new CreditPaymentReceipt(50, creditCardDTO, dummyData.generateFailedInspectionList(), true);
+        dummyData = new DummyData();
+        creditPaymentReceipt = new CreditPaymentReceipt(50, dummyData.generateCreditCardDTO(), dummyData.generateFailedInspectionList(), true);
     }
 
     @AfterEach
@@ -32,7 +32,7 @@ class CreditPaymentReceiptTest {
 
     @Test
     void getCreditCard() {
-        assertEquals("011" ,creditPaymentReceipt.getCreditCard().getCvc());
+        assertEquals("101" , creditPaymentReceipt.getCreditCard().getCvc());
     }
 
     @Test

@@ -40,14 +40,14 @@ public class Controller {
      */
     public void beginNewInspection() {
         queueHandler.nextCustomer();
-        openDoor();
+        door.openDoor();
     }
 
     /**
      * Opens the garage door.
      */
-    public void openDoor(){
-        door.openDoor();
+    public void closeDoor(){
+        door.closeDoor();
     }
 
     /**
