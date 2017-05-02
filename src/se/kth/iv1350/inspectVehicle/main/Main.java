@@ -24,6 +24,12 @@ public class Main {
         Controller controller = new Controller(queueHandler, door, vehicleDB, creditPaymentHandler, printer);
         View view = new View(controller);
 
+        // You can stack sample executions to see that the performed inspections actually get saved in DB.
+        // But if there are no  previously failed inspections to inspect when the vehicle is fetched it will result in
+        // an error. Unforturnately that haven't been prioritized to be fixed because it's not a requirement
+        // for the task.
+
         view.sampleExecution();
+        // view.sampleExecution();
     }
 }
