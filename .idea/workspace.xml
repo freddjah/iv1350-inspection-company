@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a0b148a-d931-4efa-b0e9-35dbf3b25ff6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/integration/VehicleDatabaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/model/CreditCardDTOTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/model/CreditPaymentReceiptTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/model/InspectionHandlerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/model/InspectionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/iv1350/inspectVehicle/model/Vehicle.java" afterPath="$PROJECT_DIR$/src/se/kth/iv1350/inspectVehicle/model/Vehicle.java" />
-    </list>
+    <list default="true" id="9a0b148a-d931-4efa-b0e9-35dbf3b25ff6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,46 +64,46 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22665">
+            <state relative-caret-position="-22629">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1493674467000" expanded="true" signature="91750:91792" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91750:91809" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91750:91827" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91750:91840" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91750:91855" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91890:94041" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91903:94026" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91957:92252" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="91976:92237" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92039:92217" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92079:92183" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92100:92161" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92302:92629" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92321:92614" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92416:92594" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92456:92560" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92477:92538" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92680:92945" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92699:92930" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92732:92910" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92772:92876" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92793:92854" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="92988:93294" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93007:93279" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93081:93259" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93121:93225" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93142:93203" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93345:93695" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93364:93680" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93443:93660" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93483:93626" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93504:93604" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93747:94012" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93766:93997" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93799:93977" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93839:93943" ph="..." />
-                <marker date="1493674467000" expanded="true" signature="93860:93921" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81015:81057" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81015:81074" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81015:81092" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81015:81105" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81015:81120" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81155:83306" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81168:83291" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81222:81517" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81241:81502" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81304:81482" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81344:81448" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81365:81426" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81567:81894" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81586:81879" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81681:81859" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81721:81825" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81742:81803" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81945:82210" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81964:82195" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="81997:82175" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82037:82141" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82058:82119" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82253:82559" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82272:82544" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82346:82524" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82386:82490" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82407:82468" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82610:82960" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82629:82945" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82708:82925" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82748:82891" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="82769:82869" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="83012:83277" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="83031:83262" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="83064:83242" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="83104:83208" ph="..." />
+                <marker date="1493723566000" expanded="true" signature="83125:83186" ph="..." />
               </folding>
             </state>
           </provider>
@@ -203,7 +196,7 @@
       <file leaf-file-name="VehicleDatabaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/integration/VehicleDatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="450">
               <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
               <folding>
                 <element signature="e#473#474#0" expanded="true" />
@@ -344,50 +337,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -415,112 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspectVehicle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Seminar3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1101,7 +944,7 @@
       <option name="presentableId" value="Default" />
       <updated>1493282955156</updated>
       <workItem from="1493282958617" duration="423000" />
-      <workItem from="1493283404370" duration="73665000" />
+      <workItem from="1493283404370" duration="74011000" />
     </task>
     <servers />
   </component>
@@ -1138,7 +981,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74088000" />
+    <option name="totallyTimeSpent" value="74434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1150,7 +993,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="1" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1169,11 +1012,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.62083334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.62083334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1491,46 +1334,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22665">
+        <state relative-caret-position="-22629">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493674467000" expanded="true" signature="91750:91792" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91750:91809" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91750:91827" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91750:91840" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91750:91855" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91890:94041" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91903:94026" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91957:92252" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="91976:92237" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92039:92217" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92079:92183" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92100:92161" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92302:92629" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92321:92614" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92416:92594" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92456:92560" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92477:92538" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92680:92945" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92699:92930" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92732:92910" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92772:92876" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92793:92854" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="92988:93294" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93007:93279" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93081:93259" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93121:93225" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93142:93203" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93345:93695" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93364:93680" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93443:93660" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93483:93626" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93504:93604" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93747:94012" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93766:93997" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93799:93977" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93839:93943" ph="..." />
-            <marker date="1493674467000" expanded="true" signature="93860:93921" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81015:81057" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81015:81074" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81015:81092" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81015:81105" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81015:81120" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81155:83306" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81168:83291" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81222:81517" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81241:81502" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81304:81482" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81344:81448" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81365:81426" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81567:81894" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81586:81879" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81681:81859" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81721:81825" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81742:81803" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81945:82210" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81964:82195" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="81997:82175" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82037:82141" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82058:82119" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82253:82559" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82272:82544" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82346:82524" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82386:82490" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82407:82468" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82610:82960" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82629:82945" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82708:82925" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82748:82891" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="82769:82869" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="83012:83277" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="83031:83262" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="83064:83242" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="83104:83208" ph="..." />
+            <marker date="1493723566000" expanded="true" signature="83125:83186" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1609,7 +1452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/se/kth/iv1350/inspectVehicle/integration/VehicleDatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="450">
           <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
           <folding>
             <element signature="e#473#474#0" expanded="true" />
